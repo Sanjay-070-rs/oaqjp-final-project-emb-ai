@@ -1,0 +1,18 @@
+(venv) sanjayselvan@admin-5 /home/project/final_project % python3
+Python 3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.8814332485198975, 'disgust': 0.015996014699339867, 'fear': 0.00848248228430748, 'joy': 0.03743345942348242, 'sadness': 0.03125981613993645, 'dominant_emotion': 'anger'}
+>>> exit()
+(venv) sanjayselvan@admin-5 /home/project/final_project % python3 test_emotion_detection.py
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger) ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust) ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear) ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy) ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 5.718s
+
+OK
