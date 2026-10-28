@@ -1,0 +1,2 @@
+(venv) sanjayselvan@admin-5 /home/project/final_project % python3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am very angry'))"
+{'anger': 0.9898738861083984, 'disgust': 0.0012881946749985218, 'fear': 0.0021712367888540030, 'joy': 0.001842788769863546, 'sadness': 0.002351535251364112, 'dominant_emotion': 'anger'}
