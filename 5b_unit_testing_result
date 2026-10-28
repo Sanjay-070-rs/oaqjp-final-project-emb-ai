@@ -1,0 +1,11 @@
+(venv) sanjayselvan@admin-5 /home/project/final_project % python3 -m unittest test_emotion_detection -v
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger) ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust) ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear) ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy) ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 6.193s
+
+OK
